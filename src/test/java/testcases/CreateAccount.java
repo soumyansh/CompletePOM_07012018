@@ -17,7 +17,7 @@ public class CreateAccount extends TestCase {
 		
 	ReportsPage rp=new ReportsPage();
 	rp.ReportsSelection(data.get("MemberName"));
-	System.out.println("hi");
+	
 		
 	}
 
