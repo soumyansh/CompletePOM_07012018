@@ -114,6 +114,6 @@ public class Page {
 	}
 	
 	public static void Quit() {
-		driver.quit();
+		//driver.quit();
 	}
 }
