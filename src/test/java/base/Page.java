@@ -113,7 +113,8 @@ public class Page {
 		}
 	}
 	
-	public static void Quit() {
-		//driver.quit();
+	public static void Quit() throws InterruptedException {
+		Thread.sleep(7000);
+		driver.quit();
 	}
 }
