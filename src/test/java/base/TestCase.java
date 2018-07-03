@@ -6,7 +6,7 @@ public class TestCase {
 
 	
 	@AfterSuite
-	public void tearDown() {
+	public void tearDown() throws InterruptedException {
 		Page.Quit();
 	}
 }
