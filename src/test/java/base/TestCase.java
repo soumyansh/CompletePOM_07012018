@@ -8,5 +8,6 @@ public class TestCase {
 	@AfterSuite
 	public void tearDown() throws InterruptedException {
 		Page.Quit();
+		
 	}
 }
